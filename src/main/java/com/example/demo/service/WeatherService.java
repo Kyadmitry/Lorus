@@ -1,7 +1,7 @@
 package com.example.demo.service;
 
-import com.example.demo.pojo.Weather;
-import com.example.demo.pojo.WeatherJson;
+import com.example.demo.domain.Weather;
+import com.example.demo.domain.WeatherJson;
 import com.example.demo.repository.IWeatherRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;

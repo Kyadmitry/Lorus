@@ -1,6 +1,6 @@
 package com.example.demo.controller;
 
-import com.example.demo.pojo.Weather;
+import com.example.demo.domain.Weather;
 import com.example.demo.service.WeatherService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

@@ -1,7 +1,7 @@
 //package com.example.demo.repository;
 //
-//import com.example.demo.pojo.WeatherJson;
-//import com.example.demo.pojo.Weather;
+//import com.example.demo.domain.WeatherJson;
+//import com.example.demo.domain.Weather;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.jdbc.core.JdbcTemplate;
 //import org.springframework.stereotype.Repository;
