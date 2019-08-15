@@ -15,7 +15,6 @@ public class Weather {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @JoinColumn(name = "id")
     private long id;
     @Column
     private String city;
