@@ -12,11 +12,11 @@ import java.time.LocalDate;
 @Table(name = "weather")
 @AllArgsConstructor
 public class Weather {
-//    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "weather_id_seq")
-//    @SequenceGenerator(name = "weather_id_seq", sequenceName = "weather_id_seq", allocationSize = 1)
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    @JoinColumn(name = "id")
+    private long id;
     @Column
     private String city;
     @Column
